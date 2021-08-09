@@ -1,2 +1,2 @@
 # Policy-Research-Laboratory
-website for PRL class 
+Welcome to the Fall 2021 edition of the PRL!  
