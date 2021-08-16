@@ -11,9 +11,14 @@ Teaching Assistants:
 
 TAs will host a coding session on Friday afternoon.  Attendance is required.
 
+## Class meetings
+
+- Tuesday and Thursday, from 11a-12:30p in UTC 1.116.
+- Friday, from 3-4p in CBA 4.338.
+
 ## Exercises
 
-TBA 
+There will be individual, weekly exercises to be turned in each Tuesday.  They will be posted here each Monday of the prior week.  
 
 ## Outline of topics  
 
