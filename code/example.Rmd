@@ -27,4 +27,10 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
+\begin{equation}
+\begin{split}
+2 + 2 = 4
+\end{split}
+\end{equation}
+
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
