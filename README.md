@@ -24,9 +24,7 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 
 ## Software
 
-Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstudio.org) on your own computer (you want the "RStudio Desktop" version).  Both are free and work on all platforms.    
-
-R is the underlying data-analysis program we'll use in this course, while RStudio provides a nice front-end interface to R that makes certain repetitive steps (e.g. loading data, saving plots) very simple.   We will use RStudio a little bit in the beginning of the course, and a lot more towards the middle and end.  RStudio depends upon having R available behind the scenes, so make sure you install both, even though you won't need to interact directly with the R program itself. 
+Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstudio.org) on your own computer (you want the "RStudio Desktop" version).  Both are free and work on all platforms.  R is the underlying data-analysis program we'll use in this course, while RStudio provides a nice front-end interface to R that makes certain repetitive steps (e.g. loading data, saving plots) very simple.
 
 ## Outline of topics  
 
