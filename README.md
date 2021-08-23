@@ -22,6 +22,10 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 
 - [Week 1 exercises](assignments/hw1.pdf). Due 8/31.
 
+## Software
+
+Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstudio.org) on your own computer (you want the "RStudio Desktop" version).  Both are free and work on all platforms.  R is the underlying data-analysis program we'll use in this course, while RStudio provides a nice front-end interface to R that makes certain repetitive steps (e.g. loading data, saving plots) very simple.
+
 ## Outline of topics  
 
 ### (1) Introduction
