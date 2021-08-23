@@ -18,18 +18,16 @@ TAs will host a coding session on Friday afternoon.  Attendance is required.
 
 ## Exercises
 
-There will be individual, weekly exercises to be turned in each Tuesday.  They will be posted here each Monday of the prior week.  
+There will be individual, weekly exercises to be turned in each Tuesday before each class via canvas.  They will be posted here each Monday of the prior week.  
+
+# Week 1 [exercises](assignments/hw1.pdf). Due 8/31.
 
 ## Outline of topics  
 
 ### (1) Introduction
 
-
-Slides: TBA
+Slides: to be posted.
 
 Readings:  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
-- [Introduction to GitHub](https://guides.github.com/activities/hello-world/)   
-- [Getting starting with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)  
-- [Jeff Leek's guide to sharing data](https://github.com/jtleek/datasharing)  
