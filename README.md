@@ -30,7 +30,7 @@ Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstud
 
 ### (1) Introduction
 
-Slides: to be posted.
+Slides: [Intro](slides/PRL-intro.pdf).
 
 Readings:  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
