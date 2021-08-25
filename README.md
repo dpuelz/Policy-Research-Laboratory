@@ -1,6 +1,6 @@
 # FIN 373: Policy Research Laboratory
 
-Welcome to the Fall 2021 edition of Policy Research Laboratory, a course on quantitative social science and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.md) for links and descriptions of the readings mentioned below.
+Welcome to the Fall 2021 edition of Policy Research Laboratory, a course on quantitative social science and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.
 
 Instructors:  
 - Prof. David Puelz.  Office hours TBA.
