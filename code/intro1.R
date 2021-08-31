@@ -81,7 +81,6 @@ world.pop
 ## 
 ##     return(output)
 ## }
-
 my.summary <- function(x){ # function takes one input
   s.out <- sum(x)
   l.out <- length(x)

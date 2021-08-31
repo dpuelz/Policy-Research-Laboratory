@@ -1,5 +1,5 @@
 ## ------------------------------------------------------------------------
-resume <- read.csv("resume.csv")
+resume <- read.csv("../data/resume.csv")
 
 dim(resume)
 head(resume)
@@ -138,26 +138,6 @@ sort(callback.name)
 
 ## ------------------------------------------------------------------------
 resume[1, ]
-
-## ------------------------------------------------------------------------
-social <- read.csv("social.csv") # load the data
-
-summary(social) # summarize the data
-
-## turnout for each group
-tapply(social$primary2006, social$messages, mean)
-
-## turnout for control group
-mean(social$primary2006[social$messages == "Control"])
-
-## subtract control group turnout from each group
-tapply(social$primary2006, social$messages, mean) -
-    mean(social$primary2006[social$messages == "Control"])
-
-social$age <- 2006 - social$yearofbirth # create age variable
-tapply(social$age, social$messages, mean)
-tapply(social$primary2004, social$messages, mean) 
-tapply(social$hhsize, social$messages, mean) 
 
 ## ------------------------------------------------------------------------
 minwage <- read.csv("minwage.csv") # load the data
