@@ -42,7 +42,7 @@ Readings:
 
 ### (2) Causality
 
-Slides: to be posted.
+Slides: [Causality](slides/PRL-causality.pdf)
 
 Code for class:
 - [Simple causal analysis](code/causality.R)
