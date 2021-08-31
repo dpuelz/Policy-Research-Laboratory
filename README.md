@@ -21,6 +21,7 @@ TAs will host a coding session on Friday afternoon.  Attendance is required.
 There will be individual, weekly exercises to be turned in each Tuesday before each class via canvas.  They will be posted here each Monday of the prior week.  
 
 - [Week 1 exercises](assignments/HW1.pdf). Due 8/31.
+- [Week 2 exercises](assignments/HW2.pdf). Due 9/7.
 
 ## Software
 
@@ -35,3 +36,7 @@ Slides: [Intro](slides/PRL-intro.pdf).
 Readings:  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
+
+### (2) Causality
+
+Slides: to be posted.
