@@ -31,10 +31,10 @@ Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstud
 
 ### (1) Introduction
 
-Slides: [Intro](slides/PRL-intro.pdf).
+Slides: [Intro](slides/PRL-intro.pdf)
 
 Code for class:
-- [Basic R functionality](code/intro1.R).
+- [Basic R functionality](code/intro1.R)
 
 Readings:  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
@@ -45,5 +45,5 @@ Readings:
 Slides: to be posted.
 
 Code for class:
-- [Simple causal analysis](code/causality.R).
+- [Simple causal analysis](code/causality.R)
 
