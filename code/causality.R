@@ -1,4 +1,5 @@
 ## ------------------------------------------------------------------------
+# Let's consider an experiment where researchers have a set of resumes, and the change the names at the top to white and black sounding names.  
 resume <- read.csv("../data/resume.csv")
 
 dim(resume)
@@ -20,7 +21,7 @@ race.call.tab[2, 2] / sum(race.call.tab[2, ]) # white
 race.call.tab[1, ]  # the first row
 race.call.tab[, 2]  # the second column
 
-mean(resume$call)
+mean(resume$call) # same as line 15!
 
 ## ------------------------------------------------------------------------
 class(TRUE)
@@ -84,6 +85,11 @@ dim(resume) # dimension of original data frame
 resumeB <- resume[resume$race == "black", ] 
 dim(resumeB) # this data.frame has fewer rows than the original data.frame
 mean(resumeB$call) # callback rate for blacks
+
+## subset whites only
+resumeW <- resume[resume$race == "white", ] 
+dim(resumeW) # this data.frame has fewer rows than the original data.frame
+mean(resumeW$call) # callback rate for blacks
 
 ## keep "call" and "firstname" variables 
 ## also keep observations with black female-sounding names
