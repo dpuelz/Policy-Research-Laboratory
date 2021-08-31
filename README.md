@@ -45,5 +45,5 @@ Readings:
 Slides: to be posted.
 
 Code for class:
-- [Basic R functionality](code/causality.R).
+- [Simple causal analysis](code/causality.R).
 
