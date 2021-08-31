@@ -33,6 +33,9 @@ Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstud
 
 Slides: [Intro](slides/PRL-intro.pdf).
 
+Code for class:
+- [Basic R functionality](code/intro1.R).
+
 Readings:  
 - [Introduction to RMarkdown](http://rmarkdown.rstudio.com)  
 - [RMarkdown tutorial](https://rmarkdown.rstudio.com/lesson-1.html)  
@@ -40,3 +43,7 @@ Readings:
 ### (2) Causality
 
 Slides: to be posted.
+
+Code for class:
+- [Basic R functionality](code/causality.R).
+
