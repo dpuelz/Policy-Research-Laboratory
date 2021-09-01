@@ -1,4 +1,4 @@
-#### Draft lottery: PRL in-class exercise, 9/2/21
+# Draft lottery: PRL in-class exercise – 9/2/21
 
 This exercise is based on the following paper:
 
