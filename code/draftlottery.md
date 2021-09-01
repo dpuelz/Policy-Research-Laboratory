@@ -1,3 +1,5 @@
+#### Draft lottery: PRL in-class exercise, 9/2/21
+
 This exercise is based on the following paper:
 
 Green, Donald P., Tiffancy C. Davenport, and Kolby Hanson (2019). “[Are
