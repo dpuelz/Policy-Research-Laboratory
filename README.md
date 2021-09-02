@@ -45,7 +45,7 @@ Readings:
 Slides: [Causality](slides/PRL-causality.pdf)
 
 Exercises (in-class):
-- [Draft lottery](code/draftlottery.md) - 9/2
+- [Draft lottery](code/draftlottery.md) and [data](data/survey.csv) - 9/2
 
 Code for class:
 - [Simple causal analysis](code/causality.R)
