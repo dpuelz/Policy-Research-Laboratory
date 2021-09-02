@@ -19,7 +19,7 @@ race.call.tab[1, 2] / sum(race.call.tab[1, ]) # black
 race.call.tab[2, 2] / sum(race.call.tab[2, ]) # white
 
 race.call.tab[1, ]  # the first row
-race.call.tab[, 2]  # the second column
+race.call.tab[ , 2]  # the second column
 
 mean(resume$call) # same as line 15!
 
@@ -54,7 +54,7 @@ TF1 & TF2
 
 ## ------------------------------------------------------------------------
 # Now, we turn to creating logical statements with numerical variables
-4 > 3
+4 < 3
 
 # note the "double equals" and "not equals" below
 "Hello" == "hello"  # R is case-sensitive
