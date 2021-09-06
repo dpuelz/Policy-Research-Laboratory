@@ -1,1 +1,0 @@
-# Let's now turn to an example of a policing experiment in Medellin, Colombia.
