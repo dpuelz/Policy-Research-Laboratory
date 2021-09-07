@@ -20,8 +20,8 @@ TAs will host a coding session on Friday afternoon.  Attendance is required.
 
 There will be individual, weekly exercises to be turned in each Tuesday before each class via canvas.  They will be posted here each Monday of the prior week.  
 
-- [Week 1 exercises](assignments/HW1.pdf). Due 8/31.
-- [Week 2 exercises](assignments/HW2.pdf). Due 9/7.
+- [Week 1 exercises](assignments/HW1.pdf). Due 8/31. Data: [cars.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/cars.csv)
+- [Week 2 exercises](assignments/HW2.pdf). Due 9/7. Data: 
 
 ## Software
 
