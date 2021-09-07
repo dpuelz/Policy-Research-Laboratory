@@ -50,4 +50,5 @@ Exercises (in-class):
 
 Code for class:
 - [Simple causal analysis](code/causality1.R)
+- [Randomized policing intervention](code/causality_police.R)
 
