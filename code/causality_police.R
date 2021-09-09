@@ -85,10 +85,27 @@ for(i in 1:ncol(Z[,-1])){
 # calculate alternative DiM's using the apply function
 DiM_alt = apply(Z[,-1],2,DiM_function,Y=Yobs)
 hist(DiM_alt)
-mean(DiM_alt<DiM_observed)
+abline(v=DiM_observed,col='blue',lwd=3)
+p = mean(DiM_alt<DiM_observed)
+min(p,1-p)
 
+# homicides
+Yobs = outcomes$homicidio[hotspot_indices]
+DiM_alt = apply(Z[,-1],2,DiM_function,Y=Yobs)
+DiM_observed = DiM_function(Z[,1],Yobs)
+hist(DiM_alt)
+abline(v=DiM_observed,col='blue',lwd=3)
+p = mean(DiM_alt<DiM_observed)
+min(p,1-p)
 
-
+# car jackings
+Yobs = outcomes$hcarros[hotspot_indices]
+DiM_alt = apply(Z[,-1],2,DiM_function,Y=Yobs)
+DiM_observed = DiM_function(Z[,1],Yobs)
+hist(DiM_alt)
+abline(v=DiM_observed,col='blue',lwd=3)
+p = mean(DiM_alt<DiM_observed)
+min(p,1-p)
 
 
 
