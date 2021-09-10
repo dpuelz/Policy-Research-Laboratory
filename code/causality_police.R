@@ -83,7 +83,7 @@ for(i in 1:ncol(Z[,-1])){
 }
 
 # calculate alternative DiM's using the apply function
-DiM_alt = apply(Z[,-1],2,DiM_function,Y=Yobs)
+DiM_alt = apply(Z[,-1],MARGIN=2,DiM_function,Y=Yobs)
 hist(DiM_alt)
 abline(v=DiM_observed,col='blue',lwd=3)
 p = mean(DiM_alt<DiM_observed)
