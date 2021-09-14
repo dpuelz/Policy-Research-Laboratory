@@ -95,6 +95,7 @@ mean(minwageNJ$fullPropAfter - minwageNJ$fullPropBefore)
 ## standard deviation
 sd(minwageNJ$fullPropBefore)
 sd(minwageNJ$fullPropAfter)
+
 ## variance
 var(minwageNJ$fullPropBefore)
 var(minwageNJ$fullPropAfter)
