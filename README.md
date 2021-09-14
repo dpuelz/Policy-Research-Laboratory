@@ -23,7 +23,7 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 1 exercises](assignments/HW1.pdf). Due 8/31. Data: [cars.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/cars.csv).
 - [Week 2 exercises](assignments/HW2.pdf). Due 9/7. Data: [turnout.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/turnout.csv) and [STAR.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/STAR.csv).
 - [Week 3 exercises](assignments/HW3.pdf). Due 9/14. Data: [gay.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/gay.csv) and [leaders.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/leaders.csv).
-- [Week 4 exercises](assignments/HW3.pdf). Due 9/21. Data: [rosca.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/gay.csv) and [leaders.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/leaders.csv).
+- [Week 4 exercises](assignments/HW4.pdf). Due 9/21. Data: [rosca.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/rosca.csv) and [predimed.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/predimed.csv).
 
 ## Software
 
@@ -52,15 +52,9 @@ Exercises (in-class):
 Code for class:
 - [Simple causal analysis](code/causality1.R)
 - [Randomized policing intervention](code/causality_police.R)
+- [Minimum wage example](code/causality2.R)
 
 ### (3) Probability
 
 Slides: [Probability](slides/PRL-probability.pdf)
-
-Exercises (in-class):
-- [Draft lottery](code/draftlottery.md) and [survey.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/survey.csv) - 9/2 and 9/7
-
-Code for class:
-- [Simple causal analysis](code/causality1.R)
-- [Randomized policing intervention](code/causality_police.R)
 
