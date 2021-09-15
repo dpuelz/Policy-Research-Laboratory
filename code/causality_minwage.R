@@ -1,5 +1,5 @@
 ## ------------------------------------------------------------------------
-minwage <- read.csv("minwage.csv") # load the data
+minwage <- read.csv("../data/minwage.csv") # load the data
 
 dim(minwage)
 summary(minwage)
