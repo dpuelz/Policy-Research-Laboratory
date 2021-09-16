@@ -59,4 +59,4 @@ Code for class:
 Slides: [Probability](slides/PRL-probability.pdf)
 
 Readings:  
-- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](readings/AIQ_excerpt_contraceptive_effectiveness), by Nick Polson and James Scott.  
+- An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](readings/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.  
