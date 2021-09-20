@@ -60,7 +60,7 @@ Slides: [Probability](slides/PRL-probability.pdf)
 
 Readings:  
 - An excerpt from Chapter 7 of [AIQ: How People and Machines are Smarter Together](readings/AIQ_excerpt_contraceptive_effectiveness.pdf), by Nick Polson and James Scott.  
-- [Rich State, Poor State, Red State, Blue State](http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf) and shorter prelude to this article, (Gelman's blog)[https://statmodeling.stat.columbia.edu/2005/11/07/income_matters/].
+- [Rich State, Poor State, Red State, Blue State](http://www.stat.columbia.edu/~gelman/research/published/rb_qjps.pdf) and a shorter prelude to this article, (Gelman's blog)[https://statmodeling.stat.columbia.edu/2005/11/07/income_matters/].
 
 
 
