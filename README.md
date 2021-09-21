@@ -1,6 +1,6 @@
 # FIN 373: Policy Research Laboratory
 
-Welcome to the Fall 2021 edition of Policy Research Laboratory, a course on quantitative social science and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.  *Big thanks to James Scott at UT for some slide content and presentation ideas.
+Welcome to the Fall 2021 edition of Policy Research Laboratory, a course on quantitative social science and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.  *Big thanks to James Scott at UT Austin for some slide content and presentation ideas.
 
 Instructors:  
 - Prof. David Puelz.  Office hours Wednesday and Thursday, from 1:30p-2:30p in CBA 6.444.
@@ -24,6 +24,8 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 2 exercises](assignments/HW2.pdf). Due 9/7. Data: [turnout.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/turnout.csv) and [STAR.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/STAR.csv).
 - [Week 3 exercises](assignments/HW3.pdf). Due 9/14. Data: [gay.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/gay.csv) and [leaders.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/leaders.csv).
 - [Week 4 exercises](assignments/HW4.pdf). Due 9/21. Data: [rosca.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/rosca.csv) and [predimed.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/predimed.csv).
+- [Week 5 exercises](assignments/HW5.pdf). Due 9/28. Data: [fraud.RData](). 
+
 
 ## Software
 
