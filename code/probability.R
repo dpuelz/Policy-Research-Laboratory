@@ -18,7 +18,6 @@ sum(dbinom(0:5, N, P))
 pbinom(5, size=N, prob=P)
 sum(dbinom(12:140, N, P)) # this is the answer to our question on the slides!
 
-
 # Example 2: Poisson for soccer scores
 x_grid = 0:7
 
