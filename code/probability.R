@@ -80,9 +80,14 @@ for(i in 1:6) {
 # normal random variables
 hist(rnorm(1000,mean=0,sd=1),col='gray',freq = FALSE)
 K = 3
-pnorm(K,mean=0,sd=1) # cumulative density function, calculate P(x<=K)
+pnorm(K,mean=0,sd=1) # cumulative density function, calculate P(x<=K) for one value of K
 
-
+# show PDF and CDF next to each other
+ii = seq(-3,3,length.out=1000)
+plot(ii,pnorm(ii,mean=0,sd=1),type='l',xlab='')
+par(mfrow=c(1,2))
+hist(rnorm(1000,mean=0,sd=1),col='gray',freq = FALSE,xlab='',main='PDF of Normal')
+plot(ii,pnorm(ii,mean=0,sd=1),type='l',xlab='',main='CDF of Normal')
 
 
 
