@@ -15,8 +15,8 @@ barplot(dbinom(k_grid, N, P), names.arg = k_grid,
 
 # Left tail area
 sum(dbinom(0:5, N, P))
-pbinom(5, size=N, prob=P)
 sum(dbinom(12:140, N, P)) # this is the answer to our question on the slides!
+1 - pbinom(11, size=N, prob=P) # using the cumulative distribution function instead
 
 # Example 2: Poisson for soccer scores
 x_grid = 0:7
