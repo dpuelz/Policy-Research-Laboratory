@@ -89,9 +89,14 @@ par(mfrow=c(1,2))
 hist(rnorm(10000,mean=0,sd=1),col='gray',freq = FALSE,xlab='',main='PDF of Normal')
 plot(ii,pnorm(ii,mean=0,sd=1),type='l',xlab='',main='CDF of Normal')
 
-
-
-
-
+# example of adding a line on top of a histogram
+X = runif(1000)
+hist(X)
+hist_data <- hist(X)
+counts = hist_data$counts
+breaks = hist_data$breaks
+breaks_new = breaks[-length(breaks)]  + (breaks[-1] - breaks[-length(breaks)])/2
+lines(breaks_new,counts,lwd=3,lty=2,col='red')
+abline(v=0.8,col=2,lwd=3)
 
 
