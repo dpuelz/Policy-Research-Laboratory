@@ -74,5 +74,5 @@ Readings:
 Slides: [Prediction](slides/PRL-prediction.pdf)
 
 Code for class:
-- [Fitting linear models with R](code/houses.R)
+- [Fitting linear models with R](code/linearmodels.R)
 
