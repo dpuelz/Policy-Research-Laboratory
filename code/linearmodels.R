@@ -48,6 +48,6 @@ summary(lm2)
 plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
 x = load_combined$KHOU
 quadfit = lm2$coefficients[1] + lm2$coefficients[2]*x + lm2$coefficients[3]*x^2
-lines(x,quadfit,lty=1,lwd=4,col=2)
+points(x,quadfit,lty=1,lwd=4,col=2)
 
 
