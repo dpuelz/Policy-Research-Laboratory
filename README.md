@@ -30,7 +30,7 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 
 ## Midterm and Project
 
-Details about the midterm on 10/21 and the final project can be found [here](PRL-project_midterm.pdf).
+Details about the midterm on 10/21 and the final project can be found [here](slides/PRL-project_midterm.pdf).
 
 ## Software
 
