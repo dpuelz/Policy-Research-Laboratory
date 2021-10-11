@@ -28,6 +28,9 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 6 exercises](assignments/HW6.pdf). Due 10/5. Data: [justices.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/justices.csv) and [yu2017sample.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/yu2017sample.csv).
 - [Week 7 exercises](assignments/HW7.pdf). Due 10/12. Data: [finlit15and18.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/finlit15and18.csv) and [transfer.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/transfer.csv).
 
+## Midterm and Project
+
+Details about the midterm on 10/21 and the final project can be found [here](PRL-project_midterm.pdf).
 
 ## Software
 
