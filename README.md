@@ -83,3 +83,7 @@ Code for class:
 - [Bootstrapping](code/bootstrap.R)
 - [Regression discontinuity](code/RD.R)
 
+### (5) Unsupervised learning
+
+Slides: [Unsupervised learning](slides/PRL-unsupervised.pdf)
+
