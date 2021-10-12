@@ -79,5 +79,5 @@ Slides: [Prediction](slides/PRL-prediction.pdf)
 Code for class:
 - [Fitting linear models with R](code/linearmodels.R)
 - [Bootstrapping](code/bootstrap.R)
-- [Regression Discontinuity](code/RD.R)
+- [Regression discontinuity](code/RD.R)
 
