@@ -34,22 +34,22 @@ y2.tory <- predict(tory.fit2, newdata = data.frame(margin = y2t.range))
 ## scatterplot with regression lines for labour
 plot(MPs.labour$margin, MPs.labour$ln.net, main = "Labour",
      xlim = c(-0.5, 0.5), ylim = c(6, 18), xlab = "Margin of victory",
-     ylab = "log net wealth at death")
+     ylab = "log net wealth at death",pch=19,col='gray')
 abline(v = 0, lty = "dashed")
 
 ## add regression lines
-lines(y1l.range, y1.labour, col = "blue")
-lines(y2l.range, y2.labour, col = "blue")
+lines(y1l.range, y1.labour, col = "blue",lwd=2)
+lines(y2l.range, y2.labour, col = "blue",lwd=2)
 
 ## scatterplot with regression lines for tory
 plot(MPs.tory$margin, MPs.tory$ln.net, main = "Tory", xlim = c(-0.5, 0.5),
      ylim = c(6, 18), xlab = "Margin of victory",
-     ylab = "log net wealth at death")
+     ylab = "log net wealth at death",pch=19,col='gray')
 abline(v = 0, lty = "dashed")
 
 ## add regression lines
-lines(y1t.range, y1.tory, col = "blue")
-lines(y2t.range, y2.tory, col = "blue")
+lines(y1t.range, y1.tory, col = "blue",lwd=2)
+lines(y2t.range, y2.tory, col = "blue",lwd=2)
 
 ## average net wealth for Tory MP
 tory.MP <- exp(y2.tory[1])
