@@ -96,5 +96,5 @@ Code for class:
 Slides: [Unsupervised learning](slides/PRL-unsupervised.pdf)
 
 Code for class:
-- [K-means++](code/cars.R) with [cars.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/cars.csv)
+- [K-means++](code/cars.R) and [cars.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/cars.csv)
 
