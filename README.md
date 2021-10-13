@@ -39,6 +39,7 @@ A couple places to look for data:
 - [FRED](https://fred.stlouisfed.org).  Tons of economic data from the St. Louis Fed.
 - [Johns Hopkins COVID data](https://github.com/CSSEGISandData/COVID-19).  A lot of data related to the pandemic sits here.
 - [Amazon Web Services Data Exchange](https://aws.amazon.com/marketplace/search/results?category=d5a43d97-558f-4be7-8543-cce265fe6d9d&FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&filters=FULFILLMENT_OPTION_TYPE).  Many sources ... be sure to look into the subscription and data access requirements.
+- [McCombs Business Research Center](https://guides.lib.utexas.edu/BRC).
 
 
 ## Software
