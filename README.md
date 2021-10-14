@@ -27,7 +27,7 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 5 exercises](assignments/HW5.pdf). Due 9/28. Data: [fraud.RData](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/fraud.RData). 
 - [Week 6 exercises](assignments/HW6.pdf). Due 10/5. Data: [justices.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/justices.csv) and [yu2017sample.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/yu2017sample.csv).
 - [Week 7 exercises](assignments/HW7.pdf). Due 10/12. Data: [finlit15and18.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/finlit15and18.csv) and [transfer.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/transfer.csv).
-- [Week 8 exercises](assignments/HW8.pdf). Due 10/19. Data: [electric-company.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/electric-company.csv).
+- [Week 8 exercises](assignments/HW8.pdf). Due 10/26. Data: [electric-company.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/electric-company.csv).
 
 
 ## Midterm and Project
