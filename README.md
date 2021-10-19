@@ -98,4 +98,5 @@ Slides: [Unsupervised learning](slides/PRL-unsupervised.pdf)
 
 Code for class:
 - [K-means++](code/cars.R) and [cars.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/cars.csv)
+- Hierarchical clustering [example 1](code/linkage_minmax.R) and [example 2](code/hclust_examples.R)
 

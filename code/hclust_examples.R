@@ -68,3 +68,16 @@ which(cluster1 == 9)
 # Plot the dendrogram
 plot(h1, cex=0.3)
 
+
+# Now run hierarchical clustering
+h1 = hclust(distance_between_cars, method='single')
+
+# Cut the tree into 10 clusters
+cluster1 = cutree(h1, k=10)
+summary(factor(cluster1))
+
+# Examine the cluster members
+which(cluster1 == 9)
+
+# Plot the dendrogram
+plot(h1, cex=0.3)

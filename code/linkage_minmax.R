@@ -9,7 +9,7 @@ sigma2 = diag(0.4^2, 2)
 x1 = rmvnorm(250, mu1, sigma1)
 x2 = rmvnorm(250, mu2, sigma2)
 x = rbind(x1, x2)
-plot(x)
+plot(x,col=1,pch=19)
 
 # Run hierarchical clustering with single (min) linkage
 # here min produces counterintuitive results
@@ -34,8 +34,6 @@ D3 = data.frame(x, z = c3)
 ggplot(D3) + geom_point(aes(x=X1, y=X2, col=factor(z)))
 
 
-
-
 # But here's a different example where max produces counterintuitive results
 set.seed(84958)
 mu1 = c(-1, 0)
@@ -47,7 +45,7 @@ sigma2 = diag(0.45^2, 2)
 x1 = rmvnorm(250, mu1, sigma1)
 x2 = rmvnorm(250, mu2, sigma2)
 x = rbind(x1, x2)
-plot(x)
+plot(x,pch=19)
 
 # Run hierarchical clustering with single (min) linkage
 x_dist = dist(x)
