@@ -56,7 +56,7 @@ hist(alpha, 25, xlim=c(-3,3), main=round(var(alpha), 2))
 
 
 # Compare these random projections to the first PC
-pc_Z = prcomp(Z, rank=1)
+pc_Z = prcomp(Z, rank=3)
 
 # the principal components themselves are in the "rotation" component
 # synonym: loadings

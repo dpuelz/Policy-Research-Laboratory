@@ -62,7 +62,7 @@ summary(PCApilot)
 # the question to ask is: "which variables does this load heavily on (positive and negatively)?"
 round(PCApilot$rotation[,1:3],2) 
 
-# create a tidy summary of the loadings
+# create a tidy summary of the loadings (column-centric view -- loadings, query vectors, etc.)
 loadings_summary = PCApilot$rotation %>%
   as.data.frame() %>%
   rownames_to_column('Question')
@@ -89,7 +89,7 @@ loadings_summary %>%
 shows = merge(shows, PCApilot$x[,1:3], by="row.names")
 shows = rename(shows, Show = Row.names)
 
-# let's plot in PC1 space
+# let's plot in PC1 space (observation-centric point of view -- scores, alphas, etc)
 # We might feel good calling PC1 the "quality drama" PC
 ggplot(shows) + 
 	geom_col(aes(x=reorder(Show, PC1), y=PC1)) + 

@@ -15,15 +15,15 @@ library(pdp)
 # units of grid load are megawatts.
 # This represents peak instantaneous demand for power in that hour.
 # source: scraped from the ERCOT website
-load_data = read.csv("../data/ercot/load_data.csv")
+load_data = read.csv("../data/load_data.csv")
 head(load_data)
 
 # Now weather data at hundreds of weather stations
 # throughout Texas and the surrounding region
 # Note: I've imputed a handful of sporadic missing values
 # Source: National Weather Service
-temperature_impute = read.csv("../data/ercot/temperature_impute.csv", row.names=1)
-station_data = read.csv("../data/ercot/station_data.csv", row.names=1)
+temperature_impute = read.csv("../data/temperature_impute.csv", row.names=1)
+station_data = read.csv("../data/station_data.csv", row.names=1)
 
 # take a peak at the weather station data
 head(temperature_impute)
