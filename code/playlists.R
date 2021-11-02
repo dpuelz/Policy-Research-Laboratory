@@ -69,4 +69,3 @@ plot(head(sub1, 100, by='lift'), method='graph')
 
 # export
 saveAsGraph(head(musicrules, n = 1000, by = "lift"), file = "musicrules.graphml")
-unlink("musicrules.graphml")
