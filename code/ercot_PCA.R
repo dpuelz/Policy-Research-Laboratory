@@ -137,7 +137,6 @@ p0 + geom_point(data=station_data, aes(x=lon.1, y=lat.1, color=PC5))
 # Second we can look at the scores, i.e. go hour by hour and ask:
 # what the first summary of these 256 variables?
 # What the second summary?  etc
-
 scores = pc_weather$x
 
 p1 = pc_weather$x %>%
