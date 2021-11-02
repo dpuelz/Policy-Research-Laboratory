@@ -1,0 +1,102 @@
+\documentclass[11pt]{article}
+
+% Preamble!!
+\usepackage{titling}
+\setlength{\voffset}{0.7in}
+\setlength{\droptitle}{-10em}
+\usepackage{titlesec}
+\titlelabel{\thetitle.\quad}
+\usepackage{xcolor}
+\usepackage{adjustbox}
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{longtable}
+\usepackage{breqn}
+\usepackage{lscape}
+\usepackage{indentfirst}
+\usepackage[labelsep=period,justification=justified,singlelinecheck=false,font = footnotesize, labelfont=bf]{caption}
+\usepackage{booktabs}
+\usepackage{tabularx,ragged2e}
+\usepackage{natbib}
+\usepackage{rotating}
+\usepackage{placeins}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\definecolor{burntorange}{rgb}{0.8, 0.33, 0.0}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=orange,
+    filecolor=magenta,      
+    urlcolor=burntorange,
+}
+\pagenumbering{arabic}
+
+\usepackage{bbm}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{enumerate}
+\usepackage{array}
+\usepackage[T1]{fontenc}
+\usepackage[font=small,labelfont=bf,tableposition=top]{caption}
+\usepackage{mathtools}
+\newcommand\eho{\stackrel{\mathclap{\small\mbox{$H_0$}}}{=}}
+\newcommand\sho{\stackrel{\mathclap{\small\mbox{$*$}}}{=}}
+\newcommand\dho{\stackrel{\mathclap{\small\mbox{$d$}}}{=}}
+\newcommand\qho{\stackrel{\mathclap{\small\mbox{$?$}}}{=}}
+
+% \usepackage{authblk}
+
+
+\DeclareCaptionLabelFormat{andtable}{#1~#2  \&  \tablename~\thetable}
+
+\usepackage{fullpage, amsmath, amssymb, amsthm, bbm, color}
+\usepackage{graphicx,caption,subcaption,placeins}
+\usepackage{dsfont}
+
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+\newtheorem{assumption}{Assumption}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{example}{Example}
+\newtheorem{procedure}{Procedure}
+
+
+\usepackage{tikz}
+\usetikzlibrary{positioning,chains,fit,shapes,calc}
+
+\definecolor{myblue}{RGB}{80,80,160}
+\definecolor{mygreen}{RGB}{80,160,80}
+
+
+\begin{document}
+
+\title{FIN 373 Homework 10 \\ {\large due: \textbf{11/9/21}}}
+\date{}
+\maketitle
+
+\vspace{-20mm}
+
+\noindent Instructions: Please submit solutions on canvas.  Only a knitted pdf of an {\tt Rmarkdown} file will be accepted.
+\\
+
+\noindent \textbf{Problem 1:} This homework focuses on the progress you have made so far on your project.  Feel free to work with your group members in answering these questions, but I would like individually submitted assignments demonstrating an understanding of your question and handling of the data.
+
+\begin{enumerate}[a.]
+	\item State your group members and research question.
+	\item Find and briefly summarize any past literature on your research question.  What data did they use?  What conclusions did they reach?  If you are asking a new question, how does it complement existing research? {\tt Google Scholar} will be a helpful resource.
+	\item Briefly describe the process for obtaining your data.  What is the source?  Would you like to gather more variables to merge in to your data set that you don't currently have?  If so, what is your plan for finding them?    
+	\item Load your data into {\tt R}, clean it as best as you can, and summarize  it.  How many observations and variables do you have?  What do each of the variables represent, and are they categorical, numerical, binary, or something else?  Numerical summaries and plots work well here.  
+	\item What methods from class do you plan to use to investigate your question.  Please present any existing analysis you have done.
+\end{enumerate}
+
+
+
+
+
+
+
+\end{document}
+
