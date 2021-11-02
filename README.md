@@ -104,3 +104,12 @@ Code for class:
 - [PCA introduction](code/pca_intro.R)
 - PCA examples: [NBC shows](code/nbc.R), [Congress](code/congress109.R), [ERCOT](code/ercot_PCA.R)
 
+### (6) Networks
+
+Slides: [Networks](slides/PRL-networks.pdf)
+
+Code for class:
+- [Medici family](code/medici.R)
+- [playlists](code/playlists.R)
+- A useful network visualization software: [Gephi](https://gephi.org)
+
