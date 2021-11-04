@@ -3,8 +3,6 @@ library(arules)  # has a big ecosystem of packages built around it
 library(arulesViz)
 
 # Association rule mining
-# Adapted from code by Matt Taddy
-
 # Read in playlists from users
 # This is in "long" format -- every row is a single artist-listener pair
 playlists_raw = read.csv("../data/playlists.csv")
