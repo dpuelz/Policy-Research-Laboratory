@@ -110,7 +110,8 @@ Slides: [Networks](slides/PRL-networks.pdf) & [Text](slides/PRL-text.pdf)
 
 Code for class:
 - [Medici family](code/medici.R)
-- [playlists](code/playlists.R)
+- [Playlists](code/playlists.R)
 - A useful network visualization software: [Gephi](https://gephi.org)
-- [text example](code/tm_examples.R)
+- [Text example](code/tm_examples.R)
+- [Price elasticity of beer](code/smallbeer.R)
 
