@@ -117,4 +117,4 @@ Code for class:
 
 ### (7) Advanced topics in causal inference
 
-Slides: [Topics](slides/PRL-topics.pdf)
+Slides: [Bias-variance tradeoff in supervised learning](slides/PRL-biasvariancetradeoff.pdf) & Navigating this tradeoff for causal inference.
