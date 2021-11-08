@@ -115,3 +115,6 @@ Code for class:
 - [Text example](code/tm_examples.R)
 - [Price elasticity of beer](code/smallbeer.R)
 
+### (7) Advanced topics in causal inference
+
+Slides: [Topics](slides/PRL-topics.pdf)
