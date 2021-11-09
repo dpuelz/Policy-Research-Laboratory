@@ -114,7 +114,7 @@ Code for class:
 - [Medici family](code/medici.R)
 - [Playlists](code/playlists.R)
 - A useful network visualization software: [Gephi](https://gephi.org)
-- [Text example](code/tm_examples.R)
+- [Text example](code/tm_examples.R) with [data](https://github.com/dpuelz/Policy-Research-Laboratory/tree/main/data/ReutersC50/C50test/SimonCowell).
 - [Price elasticity of beer](code/smallbeer.R)
 
 ### (7) Advanced topics in causal inference
