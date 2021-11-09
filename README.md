@@ -28,7 +28,7 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 6 exercises](assignments/HW6.pdf). Due 10/5. Data: [justices.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/justices.csv) and [yu2017sample.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/yu2017sample.csv).
 - [Week 7 exercises](assignments/HW7.pdf). Due 10/12. Data: [finlit15and18.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/finlit15and18.csv) and [transfer.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/transfer.csv).
 - [Week 8 exercises](assignments/HW8.pdf). Due 10/26. Data: [electric-company.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/electric-company.csv).
-- Week 9 exercises. None -- midterm!
+- Week 9 exercises. None - midterm!
 - [Week 10 exercises](assignments/HW9.pdf). Due 11/2. Data: [social_marketing.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/social_marketing.csv).
 - [Week 11 exercises](assignments/HW10.pdf). Due 11/9.  This homework asks for initial project summaries.
 
