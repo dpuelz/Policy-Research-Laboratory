@@ -120,3 +120,6 @@ Code for class:
 ### (7) Advanced topics in causal inference
 
 Slides: [Bias-variance tradeoff](slides/PRL-biasvariancetradeoff.pdf) & [ML for causal inference](slides/).
+
+Readings:
+- [Introduction to statistical learning, 2nd edition](https://web.stanford.edu/~hastie/ISLR2/ISLRv2_website.pdf).
