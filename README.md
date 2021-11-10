@@ -122,4 +122,4 @@ Code for class:
 Slides: [Bias-variance tradeoff](slides/PRL-biasvariancetradeoff.pdf) & [ML for causal inference](slides/).
 
 Readings:
-- [Introduction to statistical learning, 2nd edition](https://web.stanford.edu/~hastie/ISLR2/ISLRv2_website.pdf).
+- [Introduction to Statistical Learning, 2nd Edition](https://web.stanford.edu/~hastie/ISLR2/ISLRv2_website.pdf).
