@@ -123,5 +123,5 @@ lines(xval[1:2],yval[1:2],lwd=10,col='red')
 lines(xval[3:4],yval[3:4],lwd=10,col='blue')
 lines(xval[5:6],yval[5:6],lwd=10,col='orange')
 lines(xval[7:8],yval[7:8],lwd=10,col='green')
-legend()
+
 
