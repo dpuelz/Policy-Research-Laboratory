@@ -4,7 +4,7 @@ library(mosaic)
 ##### Working with on original Levitt data
 #' The response variable, Y , is per capita crime rates (violent crime, property crime, and murders) by state, from 1985 to 1997 (inclusive). The treatment variable, Z, is the “effective” abortion rate. This metric is an averaged abortion rate, weighted by criminal age at the time of arrest (to account for the fact that crimes committed by criminals should be associated with abortion rates at the time of their births).
 ##########################################
-Original = read.table("levitt_ex.dat",fill=TRUE,header=TRUE)
+Original = read.table("../data/levitt_ex.dat",fill=TRUE,header=TRUE)
 n=dim(Original)[1]
 
 ## Remove DC, Alaska and Hawaii

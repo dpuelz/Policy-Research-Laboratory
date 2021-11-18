@@ -127,3 +127,7 @@ Code for class:
 
 Readings:
 - [Introduction to Statistical Learning, 2nd Edition](https://web.stanford.edu/~hastie/ISLR2/ISLRv2_website.pdf).
+
+### (8) Data visualization
+
+Slides: [Introduction to data visualization](slides/PRL-datavizslides.pdf)
