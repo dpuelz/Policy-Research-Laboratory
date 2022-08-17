@@ -22,7 +22,6 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 
 - [Week 1 exercises](assignments/HW1.pdf). Due 8/31. Data: [cars.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/cars.csv).
 <!-- 
-
 - [Week 2 exercises](assignments/HW2.pdf). Due 9/7. Data: [turnout.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/turnout.csv) and [STAR.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/STAR.csv).
 - [Week 3 exercises](assignments/HW3.pdf). Due 9/14. Data: [gay.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/gay.csv) and [leaders.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/leaders.csv).
 - [Week 4 exercises](assignments/HW4.pdf). Due 9/21. Data: [rosca.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/rosca.csv) and [predimed.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/predimed.csv).
@@ -34,12 +33,13 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 10 exercises](assignments/HW9.pdf). Due 11/2. Data: [social_marketing.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/social_marketing.csv).
 - [Week 11 exercises](assignments/HW10.pdf). Due 11/9.  This homework asks for initial project summaries.
 - [Week 12 exercises](assignments/HW11.pdf). Due 11/16. Data: [newspapers.RData](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/newspapers.RData). 
-
 -->
 
 ## Midterm and Project
 
+<!-- 
 Details about the midterm on 10/21 and the final project can be found [here](slides/PRL-project_midterm.pdf).
+-->
 
 A couple places to look for data:
 - [Harvard Dataverse](https://dataverse.harvard.edu).  Compilation of data (and code) from research projects ranging from medicine and law to business and public policy.  Often accompanied by a peer-reviewed paper.
