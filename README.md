@@ -72,8 +72,8 @@ Readings:
 Slides: [Causality](slides/PRL-causality.pdf)
 
 Exercises (in-class):
-- [Draft lottery](code/draftlottery.md) and [survey.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/survey.csv) - 9/2 and 9/7
-- [Minimum wage - uncommented code](code/causality_minwage.R) and [minwage.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/minwage.csv) - 9/14
+- [Draft lottery](code/draftlottery.md) and [survey.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/survey.csv)
+- [Minimum wage - uncommented code](code/causality_minwage.R) and [minwage.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/minwage.csv)
 
 Code for class:
 - [Simple causal analysis](code/causality1.R)
