@@ -1,4 +1,4 @@
-# Draft lottery: PRL in-class exercise – Sep 2
+# Draft lottery: PRL in-class exercise
 
 This exercise is based on the following paper:
 
