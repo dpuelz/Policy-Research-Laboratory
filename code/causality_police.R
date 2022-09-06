@@ -64,7 +64,7 @@ plottreatment(Z[,4],network,hotspot_indices)
 plottreatment(Z[,5],network,hotspot_indices)
 
 
-# Now, let's look into estimating some causal effects
+# Now, let's look into testing some causal effects
 # Since randomization is done only on the hotspots, we restrict our outcome vector to just the hotspots
 Yobs = Y[hotspot_indices]
 DiM = mean(Yobs[which(Zobs==1)]) - mean(Yobs[which(Zobs==0)])
