@@ -25,7 +25,7 @@ Y = (outcomes$hmotos +  outcomes$hcarros)*0.221 +
   outcomes$homicidio*0.550 + outcomes$lesiones*0.112 + 
   outcomes$hpersonas*0.116
 names(Y) = rownames(outcomes)
-points(network,col=rgb(1,0,0,alpha=0.5),cex=Y,pch=19)
+points(network,col=rgb(1,0,0,alpha=0.5),cex=0.5*Y,pch=19)
 
 # Let's plot the observed treatment
 dim(Z)

@@ -29,7 +29,7 @@ mean(minwageNJ.bk$fullPropAfter) - mean(minwagePA.bk$fullPropAfter)
 
 minwageNJ.bk.subset <-
     subset(minwageNJ.bk, subset = ((location != "shoreNJ") &
-                                       (location != "centralNJ")))
+                                      (location != "centralNJ")))
 
 mean(minwageNJ.bk.subset$fullPropAfter) - mean(minwagePA.bk$fullPropAfter)
 
@@ -38,14 +38,6 @@ minwageNJ$fullPropBefore <- minwageNJ$fullBefore /
 
 NJdiff <- mean(minwageNJ$fullPropAfter) - mean(minwageNJ$fullPropBefore)
 NJdiff
-
-minwagePA$fullPropBefore <- minwagePA$fullBefore /
-    (minwagePA$fullBefore + minwagePA$partBefore)
-
-PAdiff <- mean(minwagePA$fullPropAfter) - mean(minwagePA$fullPropBefore)
-
-NJdiff - PAdiff
-
 
 minwagePA$fullPropBefore <- minwagePA$fullBefore /
     (minwagePA$fullBefore + minwagePA$partBefore)
