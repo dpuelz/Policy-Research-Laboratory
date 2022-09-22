@@ -90,6 +90,7 @@ hist(rnorm(10000,mean=0,sd=1),col='gray',freq = FALSE,xlab='',main='PDF of Norma
 plot(ii,pnorm(ii,mean=0,sd=1),type='l',xlab='',main='CDF of Normal')
 
 # example of adding a line on top of a histogram
+dev.off()
 X = runif(1000)
 hist(X)
 hist_data <- hist(X)
