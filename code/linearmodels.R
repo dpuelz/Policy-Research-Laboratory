@@ -30,6 +30,7 @@ plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=
 load_combined = mutate(load_combined,
                        Time = ymd_hms(Time))
 plot(load_combined$Time,load_combined$COAST,type='l',col=rgb(0,0,0,alpha=0.6))
+plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
 
 
 # Simple linear regression
@@ -47,7 +48,10 @@ summary(lm2)
 
 plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
 x = load_combined$KHOU
-quadfit = lm2$coefficients[1] + lm2$coefficients[2]*x + lm2$coefficients[3]*x^2
-points(x,quadfit,lty=1,lwd=4,col=2)
+xmin = floor(min(x))
+xmax = floor(max(x))
+xnew = seq(xmin,xmax,length.out=500)
+quadfit = lm2$coefficients[1] + lm2$coefficients[2]*xnew + lm2$coefficients[3]*xnew^2
+lines(xnew,quadfit,col=2,lwd=3)
 
 
