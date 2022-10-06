@@ -58,10 +58,12 @@ numboot = 200
 lm2 = do(numboot)*(lm(COAST ~ KHOU + KHOU_squared, data=resample(load_combined)))
 
 plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
+
 x = load_combined$KHOU
 xmin = floor(min(x))
 xmax = floor(max(x))
 xnew = seq(xmin,xmax,length.out=500)
+
 quadfit = array(NA,c(numboot,length(xnew)))
 for(ii in 1:numboot){
   quadfit[ii,] = lm2$Intercept[ii] + lm2$KHOU[ii]*xnew +   lm2$KHOU_squared[ii]*xnew^2
@@ -69,7 +71,7 @@ for(ii in 1:numboot){
 }
 
 # smaller sample
-load_combined_small = sample(load_combined,500)
+load_combined_small = sample(load_combined,50)
 KHOU_squared = load_combined_small$KHOU^2
 load_combined_small$KHOU_squared = KHOU_squared
 numboot = 200

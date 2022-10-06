@@ -47,10 +47,12 @@ lm2 = lm(COAST ~ KHOU + KHOU_squared, data=load_combined)
 summary(lm2)
 
 plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
+
 x = load_combined$KHOU
 xmin = floor(min(x))
 xmax = floor(max(x))
 xnew = seq(xmin,xmax,length.out=500)
+
 quadfit = lm2$coefficients[1] + lm2$coefficients[2]*xnew + lm2$coefficients[3]*xnew^2
 lines(xnew,quadfit,col=2,lwd=3)
 
