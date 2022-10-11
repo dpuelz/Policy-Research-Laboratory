@@ -76,8 +76,6 @@ hist(tory_samp)
 abline(v=0,col=2,lwd=3)
 confint(tory_samp,level=0.95)
 
-## what about a quadratic fit?
-
 
 
 
