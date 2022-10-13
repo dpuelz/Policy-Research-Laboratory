@@ -41,5 +41,4 @@ qplot(Horsepower, CityMPG, data=cars, color=factor(clust1$cluster))
 # Using kmeans++ initialization
 clust2 = KMeans_rcpp(X, clusters=6, num_init=25, initializer = 'kmeans++')
 clust2$total_SSE
-
 clust1$totss
