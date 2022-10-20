@@ -16,7 +16,7 @@ mu = attr(X,"scaled:center")
 sigma = attr(X,"scaled:scale")
 
 # Run k-means with 6 clusters and 25 starts
-clust1 = kmeans(X, 6, nstart=25)
+clust1 = kmeans(X, 6, nstart=500)
 
 # What are the clusters?
 clust1$center  # not super helpful
