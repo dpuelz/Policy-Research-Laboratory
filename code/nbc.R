@@ -90,6 +90,8 @@ loadings_summary %>%
 shows = merge(shows, PCApilot$x[,1:3], by="row.names")
 shows = rename(shows, Show = Row.names)
 
+
+
 # let's plot in PC1 space (observation-centric point of view -- scores, alphas, etc)
 # We might feel good calling PC1 the "quality drama" PC
 ggplot(shows) + 
@@ -109,10 +111,13 @@ summary(lm1)
 lm2 = lm(GRP ~ PC1 + PC2 + PC3, data=shows)
 summary(lm2)
 
+
 # Conclusion: we can predict engagement and ratings
 # with PCA summaries of the pilot survey.
 # probably too much variance to regress on all survey questions!
 # since the sample size isn't too large here.
 plot(PE ~ fitted(lm1), data=shows)
+abline(0,1,lwd=2,col=2)
 plot(GRP ~ fitted(lm2), data=shows)
+abline(0,1,lwd=2,col=2)
 
