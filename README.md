@@ -47,6 +47,10 @@ A couple places to look for data:
 - [McCombs Business Research Center](https://guides.lib.utexas.edu/BRC).
 - [Tyler Moore's website: Cybersecurity and Crypto-related research](https://tylermoore.ens.utulsa.edu/pub.html).
 
+Project presentation schedule is:
+
+Tuesday, November 29: Loren / Ranak + Charles + Mehar / Ruijia + Jessica
+Thursday, December 1: Michelle + Grace + Anusha / Jeremy + Sarah + Sahas
 
 ## Software
 
