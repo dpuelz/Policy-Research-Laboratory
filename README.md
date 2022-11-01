@@ -52,8 +52,6 @@ Project presentation schedule is:
 - Tuesday, November 29: Loren / Ranak + Charles + Mehar / Ruijia + Jessica
 - Thursday, December 1: Michelle + Grace + Anusha / Jeremy + Sarah + Sahas
 
-
-
 ## Software
 
 Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstudio.org) on your own computer (you want the "RStudio Desktop" version).  Both are free and work on all platforms.  R is the underlying data-analysis program we'll use in this course, while RStudio provides a nice front-end interface to R that makes certain repetitive steps (e.g. loading data, saving plots) very simple.
