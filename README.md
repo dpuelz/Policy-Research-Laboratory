@@ -49,8 +49,10 @@ A couple places to look for data:
 
 Project presentation schedule is:
 
-Tuesday, November 29: Loren / Ranak + Charles + Mehar / Ruijia + Jessica
-Thursday, December 1: Michelle + Grace + Anusha / Jeremy + Sarah + Sahas
+- Tuesday, November 29: Loren / Ranak + Charles + Mehar / Ruijia + Jessica
+- Thursday, December 1: Michelle + Grace + Anusha / Jeremy + Sarah + Sahas
+
+
 
 ## Software
 
