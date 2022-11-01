@@ -30,9 +30,9 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 8 exercises](assignments/HW8.pdf). Due 10/18. Data: [electric-company.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/electric-company.csv).
 - Week 9 exercises. None - midterm!
 - [Week 10 exercises](assignments/HW9.pdf). Due 11/1. Data: [social_marketing.csv](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/social_marketing.csv).
-- [Week 11 exercises](assignments/HW10.pdf). Due 11/9.  This homework asks for initial project summaries.
+- [Week 11 exercises](assignments/HW10.pdf). Due 11/8.  This homework asks for initial project summaries.
 <!-- 
-- [Week 12 exercises](assignments/HW11.pdf). Due 11/16. Data: [newspapers.RData](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/newspapers.RData). 
+- [Week 12 exercises](assignments/HW11.pdf). Due 11/15. Data: [newspapers.RData](https://downgit.github.io/#/home?url=https://github.com/dpuelz/Policy-Research-Laboratory/blob/main/data/newspapers.RData). 
 -->
 
 ## Midterm and Project
