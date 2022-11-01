@@ -25,7 +25,7 @@ pilot_results = survey %>%
 	group_by(Show) %>% 
 	select(-Viewer) %>%
 	summarize_all(mean) %>%
-	column_to_rownames(var="Show")
+  column_to_rownames(var="Show")
 
 # now we have a tidy matrix of shows by questions
 # each entry is an average survey response
