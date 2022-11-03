@@ -5,6 +5,7 @@ library(tidyverse)
 library(slam)
 library(proxy)
 
+
 ## tm has many "reader" functions.  Each one has
 ## arguments elem, language, id
 ## (see ?readPlain, ?readPDF, ?readXML, etc)
@@ -109,7 +110,7 @@ plot(tree_simon)
 clust5 = cutree(tree_simon, k=5)
 
 # inspect the clusters
-which(clust5 == 3)
+which(clust5 == 2)
 
 # These all look to be about Scottish Amicable
 content(simon[[12]])
