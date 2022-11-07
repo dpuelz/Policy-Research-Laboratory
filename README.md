@@ -124,7 +124,7 @@ Code for class:
 
 ### (7) Advanced topics in causal inference
 
-Slides: [Bias-variance tradeoff](slides/PRL-biasvariancetradeoff.pdf) & [ML for causal inference](slides/PRL_selectionandRIC.pdf).
+Slides: [Bias-variance tradeoff](slides/PRL-biasvariancetradeoff.pdf) & [ML for causal inference](slides/PRL-selectionandRIC.pdf).
 
 Code for class:
 - [BART example](code/makeBARTsim.R)
