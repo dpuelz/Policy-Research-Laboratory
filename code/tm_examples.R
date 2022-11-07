@@ -110,7 +110,7 @@ plot(tree_simon)
 clust5 = cutree(tree_simon, k=5)
 
 # inspect the clusters
-which(clust5 == 2)
+which(clust5 == 3)
 
 # These all look to be about Scottish Amicable
 content(simon[[12]])
