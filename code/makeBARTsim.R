@@ -4,11 +4,11 @@ f=function(x){
 }
 curve(f,-1,1)
 
-n = 200
+n = 100
 xx = runif(n,-1,1)
 yy = f(xx) + rnorm(n,0,.04)
 points(xx,yy,pch=19,cex=.1)
-x.test = seq(-1,1,length.out = 2000)
+x.test = seq(-1,1,length.out = 1000)
 
 
 library(BART)
