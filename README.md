@@ -2,7 +2,7 @@
 
 Welcome to the Fall 2023 edition of Policy Research Laboratory, a course on causal inference and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.
 
-Instructors:  
+Instructor:  
 - Prof. David Puelz.  Office hours Tuesday and Thursday, from 11:00a-11:45a in GSB 5.136.
 
 Teaching Assistants:
