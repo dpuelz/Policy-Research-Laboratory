@@ -6,7 +6,7 @@ Instructor:
 - Prof. David Puelz.  Office hours Tuesday and Thursday, from 11:00a-11:45a in GSB 5.136.
 
 Teaching Assistants:
-- Loren Nix, TA session 10:30a - 12p on Fridays. Location TBA.
+- Loren Nix, TA session 10:30a - 12p on Fridays in GSB 5.144.
 
 ## Class meetings
 
