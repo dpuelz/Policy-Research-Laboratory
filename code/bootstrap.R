@@ -12,18 +12,21 @@ mean(creatinine$creatclear)
 
 # OK, 125.25 +/- what?
 # Bootstrap to get a standard error
-boot1 = do(10000)*{
+boot1 = do(5000)*{
   mean(resample(creatinine)$creatclear)
 }
 
-hist(boot1$result, 30)
+hist(boot1$result)
 sd(boot1$result)
 
+# formula for standard error? se = sqrt(s^2/n)
+s = sd(creatinine$creatclear)
+n = nrow(creatinine)
+se_closedform = sqrt(s^2/n)
+se_closedform
+
+
 # Interpetation: our sample mean is probably off from the true population mean by about 0.95 units
-
-# confidence interval: a range of plausible values for the population parameter, in light of the sample estimate
-confint(boot1, level=0.95)
-
 
 #### Bootstrapping the OLS estimator
 plot(creatclear~age, data=creatinine,
@@ -35,7 +38,7 @@ abline(lm1, lwd=2, col='blue')
 coef(lm1)
 
 # Bootstrap
-boot1 = do(10000)*lm(creatclear~age, data=resample(creatinine))
+boot1 = do(1000)*lm(creatclear~age, data=resample(creatinine))
 head(boot1)
 
 hist(boot1$Intercept)
@@ -57,7 +60,7 @@ load_combined$KHOU_squared = KHOU_squared
 numboot = 200
 lm2 = do(numboot)*(lm(COAST ~ KHOU + KHOU_squared, data=resample(load_combined)))
 
-plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
+plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8,xlab="temperature (F)",ylab="power demand")
 
 x = load_combined$KHOU
 xmin = floor(min(x))
@@ -71,13 +74,13 @@ for(ii in 1:numboot){
 }
 
 # smaller sample
-load_combined_small = sample(load_combined,50)
+load_combined_small = sample(load_combined,15)
 KHOU_squared = load_combined_small$KHOU^2
 load_combined_small$KHOU_squared = KHOU_squared
 numboot = 200
 lm2 = do(numboot)*(lm(COAST ~ KHOU + KHOU_squared, data=resample(load_combined_small)))
 
-plot(load_combined_small$KHOU,load_combined_small$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
+plot(load_combined_small$KHOU,load_combined_small$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8,xlab="temperature (F)",ylab="power demand")
 x = load_combined_small$KHOU
 xmin = floor(min(x))
 xmax = floor(max(x))
