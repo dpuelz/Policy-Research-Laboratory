@@ -16,8 +16,6 @@ minwagePA$fullPropBefore <- minwagePA$fullBefore /
 
 # diffindiff estimate
 NJdiff <- mean(minwageNJ$fullPropAfter) - mean(minwageNJ$fullPropBefore)
-minwagePA$fullPropBefore <- minwagePA$fullBefore /
-  (minwagePA$fullBefore + minwagePA$partBefore)
 PAdiff <- mean(minwagePA$fullPropAfter) - mean(minwagePA$fullPropBefore)
 NJdiff - PAdiff
 
@@ -36,6 +34,7 @@ minwage_big$fullAfter[which(minwage_big$time=="Before")] <- NA
 minwage_big$partAfter[which(minwage_big$time=="Before")] <- NA
 
 head(minwage_big)
+tail(minwage_big)
 
 # fit a special linear model
 minwage_big$fullPropBefore = minwage_big$fullBefore /
