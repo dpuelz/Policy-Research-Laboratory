@@ -23,8 +23,8 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 5 exercises](assignments/HW5.pdf). Due 9/26. Data: [fraud.RData](data/fraud.RData). 
 - [Week 6 exercises](assignments/HW6.pdf). Due 10/3. Data: [justices.csv](data/justices.csv) and [yu2017sample.csv](data/yu2017sample.csv).
 - [Week 7 exercises](assignments/HW7.pdf). Due 10/10. Data: [finlit15and18.csv](data/finlit15and18.csv) and [transfer.csv](data/transfer.csv).
-<!-- - [Week 8 exercises](assignments/HW8.pdf). Due 10/18. Data: [electric-company.csv](data/electric-company.csv).
-- Week 9 exercises. None - midterm!
+- [Week 8 exercises](assignments/HW8.pdf). Due 10/17. Data: [electric-company.csv](data/electric-company.csv).
+<!-- - Week 9 exercises. None - midterm!
 - [Week 10 exercises](assignments/HW9.pdf). Due 11/1. Data: [social_marketing.csv](data/social_marketing.csv).
 - [Week 11 exercises](assignments/HW10.pdf). Due 11/8.  This homework asks for initial project summaries.
 - [Week 12 exercises](assignments/HW11.pdf). Due 11/15. Data: [newspapers.RData](data/newspapers.RData). -->
