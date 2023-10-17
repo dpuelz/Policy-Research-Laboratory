@@ -22,7 +22,7 @@ clust1 = kmeans(X, 6, nstart=500)
 clust1$center  # not super helpful
 clust1$center[1,]*sigma + mu
 clust1$center[2,]*sigma + mu
-clust1$center[4,]*sigma + mu
+clust1$center[5,]*sigma + mu
 
 
 # Which cars are in which clusters?

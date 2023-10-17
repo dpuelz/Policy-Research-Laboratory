@@ -22,8 +22,8 @@ head(load_data)
 # throughout Texas and the surrounding region
 # Note: I've imputed a handful of sporadic missing values
 # Source: National Weather Service
-temperature_impute = read.csv("../data/temperature_impute.csv", row.names=1)
-station_data = read.csv("../data/station_data.csv", row.names=1)
+temperature_impute = read.csv("../data/ercot/temperature_impute.csv", row.names=1)
+station_data = read.csv("../data/ercot/station_data.csv", row.names=1)
 
 # take a peak at the weather station data
 head(temperature_impute)
