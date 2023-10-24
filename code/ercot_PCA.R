@@ -203,8 +203,6 @@ train_ind = sample.int(N, N_train, replace=FALSE) %>% sort
 load_train = load_combined[train_ind,]
 load_test = load_combined[-train_ind,]
 
-
-
 # try random forests -- nice "go-to" as a first attempt at block-box predictive modeling
 # note: this takes awhile!
 forest_coast = randomForest(COAST ~ hour + day + month + PC1 + PC2 + PC3 + PC4 + PC5,
@@ -215,15 +213,22 @@ yhat_forest_coast = predict(forest_coast, load_test)
 mean((yhat_forest_coast - load_test$COAST)^2) %>% sqrt
 
 # useful to compare to a linear model with each PC expanded in a spline basis
-lm_coast = lm(COAST ~ factor(day) + factor(month) + bs(hour, 7) + 
-           bs(PC1, 7) +  bs(PC2, 7) + bs(PC3, 7) + bs(PC4, 7) + bs(PC5, 7),
-         data=load_train)
+# lm_coast = lm(COAST ~ factor(day) + factor(month) + bs(hour, 7) + 
+#            bs(PC1, 7) +  bs(PC2, 7) + bs(PC3, 7) + bs(PC4, 7) + bs(PC5, 7),
+#          data=load_train)
+
+lm_coast = lm(COAST ~ factor(day) + factor(month) + hour + PC1 + PC2 + PC3 + PC4 + PC5,data=load_train)
 yhat_coast_lm2 = predict(lm_coast, load_test)
 
 # massive improvement, even when throwing in nonlinearities in the PCs
 mean((yhat_coast_lm2 - load_test$COAST)^2) %>% sqrt
 
 # Let's visualize the fit of the random forest
+par(mfrow=c(1,2))
+plot(yhat_forest_coast,load_test$COAST,pch=19,cex=0.5,xlim=c(6000,18000),ylim=c(6000,18000))
+abline(0,1,col='red',lwd=2)
+plot(yhat_coast_lm2,load_test$COAST,pch=19,cex=0.5,col='gray',xlim=c(6000,18000),ylim=c(6000,18000))
+abline(0,1,col='red',lwd=2)
 
 # performance as a function of iteration number
 # seems to have leveled off
