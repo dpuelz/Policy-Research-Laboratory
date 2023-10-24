@@ -30,9 +30,9 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - [Week 12 exercises](assignments/HW11.pdf). Due 11/15. Data: [newspapers.RData](data/newspapers.RData). -->
 
 
-## Midterm and Project
+## Project
 
-<!-- Details about the midterm on 10/20 and the final project can be found [here](slides/PRL-project_midterm.pdf). -->
+Details about the final project can be found [here](slides/PRL-project.pdf).
 
 A couple places to look for data:
 - [Harvard Dataverse](https://dataverse.harvard.edu).  Compilation of data (and code) from research projects ranging from medicine and law to business and public policy.  Often accompanied by a peer-reviewed paper.
