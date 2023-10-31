@@ -46,4 +46,4 @@ E(marriage, path=GtoS$vpath[[1]])$color = "darkgreen"
 plot(marriage)
 
 ## print the betweenness for each family
-sort(round(betweenness(marriage),1))
+barplot(sort(round(betweenness(marriage),1)))
