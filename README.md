@@ -47,8 +47,6 @@ Thursday (11/30)
 2. Sergio
 3. Adish
 
-Thursday (11/30)
-
 A couple places to look for data:
 - [Harvard Dataverse](https://dataverse.harvard.edu).  Compilation of data (and code) from research projects ranging from medicine and law to business and public policy.  Often accompanied by a peer-reviewed paper.
 - [FRED](https://fred.stlouisfed.org).  Tons of economic data from the St. Louis Fed.
