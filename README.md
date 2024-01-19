@@ -1,22 +1,23 @@
 # FIN 373: Policy Research Laboratory
 
-Welcome to the Fall 2023 edition of Policy Research Laboratory, a course on causal inference and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.
+Welcome to the Spring 2024 edition of Policy Research Laboratory, a course on causal inference and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.
 
 Instructor:  
-- Prof. David Puelz.  Office hours Tuesday and Thursday, from 11:00a-11:45a in GSB 5.136.
+- Prof. David Puelz.  Office hours TBA in GSB 5.136.
 
 Teaching Assistants:
-- Loren Nix
+- Adish Sundar
 
 ## Class meetings
 
-- Tuesday and Thursday, from 9:30p-11:00a in CBA 6.420.
+- Mondays, from 8:00a-11:00a in JES A218A.
 
 ## Exercises
 
-There will be individual, weekly exercises to be turned in each Tuesday before each class via canvas.  They will be posted here each Monday of the prior week.  
+There will be individual, weekly exercises to be turned in each Wednesday via canvas.  They will be posted here each Monday of the prior week.  
 
-- [Week 1 exercises](assignments/HW1.pdf). Due 8/29. Data: [cars.csv](data/cars.csv).
+- [Week 1 exercises](assignments/HW1.pdf). Due 1/31. Data: [cars.csv](data/cars.csv).
+<!-- 
 - [Week 2 exercises](assignments/HW2.pdf). Due 9/5. Data: [turnout.csv](data/turnout.csv) and [STAR.csv](data/STAR.csv).
 - [Week 3 exercises](assignments/HW3.pdf). Due 9/12. Data: [gay.csv](data/gay.csv) and [leaders.csv](data/leaders.csv).
 - [Week 4 exercises](assignments/HW4.pdf). Due 9/19. Data: [rosca.csv](data/rosca.csv) and [predimed.csv](data/predimed.csv).
@@ -27,11 +28,13 @@ There will be individual, weekly exercises to be turned in each Tuesday before e
 - Week 9 exercises. None - midterm!
 - [Week 10 exercises](assignments/HW9.pdf). Due 10/31. Data: [social_marketing.csv](data/social_marketing.csv).
 - [Week 11 exercises](assignments/HW10.pdf). Due 11/7.  This homework asks for initial project summaries.
-- [Week 12 exercises](assignments/HW11.pdf). Due 11/15. Data: [newspapers.RData](data/newspapers.RData).
+- [Week 12 exercises](assignments/HW11.pdf). Due 11/15. Data: [newspapers.RData](data/newspapers.RData). 
+-->
 
 
 ## Project
 
+<!--
 Details about the final project can be found [here](slides/PRL-project.pdf).
 
 Presentation schedule is the following:
@@ -46,6 +49,7 @@ Thursday (11/30)
 1. Maryam
 2. Sergio
 3. Adish
+-->
 
 A couple places to look for data:
 - [Harvard Dataverse](https://dataverse.harvard.edu).  Compilation of data (and code) from research projects ranging from medicine and law to business and public policy.  Often accompanied by a peer-reviewed paper.
