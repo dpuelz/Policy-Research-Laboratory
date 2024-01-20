@@ -3,10 +3,10 @@
 Welcome to the Spring 2024 edition of Policy Research Laboratory, a course on causal inference and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.
 
 Instructor:  
-- Prof. David Puelz.  Office hours TBA in GSB 5.136.
+- Prof. David Puelz.  Individual meetings can be booked at the following [link](https://calendly.com/dpuelz).
 
 Teaching Assistants:
-- Adish Sundar
+- Adish Sundar, TA session on Wednesdays from 10:00a-11:30a, location TBA.
 
 ## Class meetings
 
