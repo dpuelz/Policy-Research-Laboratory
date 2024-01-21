@@ -59,6 +59,8 @@ A couple places to look for data:
 - [McCombs Business Research Center](https://guides.lib.utexas.edu/BRC).
 - [Tyler Moore's website: Cybersecurity and Crypto-related research](https://tylermoore.ens.utulsa.edu/pub.html).
 
+Projects are varied in scope, data, and topic area. [Here](https://charlesmiele.com/PRL.html) is one great example on startup success.
+
 ## Software
 
 Please install [R](http://www.r-project.org) and then [RStudio](http://www.rstudio.org) on your own computer (you want the "RStudio Desktop" version).  Both are free and work on all platforms.  R is the underlying data-analysis program we'll use in this course, while RStudio provides a nice front-end interface to R that makes certain repetitive steps (e.g. loading data, saving plots) very simple.
