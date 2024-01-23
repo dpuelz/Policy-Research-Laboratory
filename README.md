@@ -6,7 +6,7 @@ Instructor:
 - Prof. David Puelz.  Individual meetings can be booked at the following [link](https://calendly.com/dpuelz).
 
 Teaching Assistants:
-- Adish Sundar, TA session on Wednesdays from 10:00a-11:30a, location TBA.
+- Adish Sundar, TA session on Wednesdays from 10:00a-11:30a in the Finance Dept conference room, CBA 6.224.
 
 ## Class meetings
 
