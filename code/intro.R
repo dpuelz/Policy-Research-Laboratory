@@ -102,3 +102,8 @@ my.summary <- function(x){ # function takes one input
 z <- 1:10
 my.summary(z)
 my.summary(world.pop)
+my.summary(rnorm(10000))
+
+
+
+
