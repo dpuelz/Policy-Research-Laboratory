@@ -54,7 +54,7 @@ TF1 & TF2
 
 ## ------------------------------------------------------------------------
 # Now, we turn to creating logical statements with numerical variables
-4 < 3
+crazy = (4 < 3)
 
 # note the "double equals" and "not equals" below
 "Hello" == "hello"  # R is case-sensitive
@@ -65,7 +65,8 @@ x >= 2
 x != 1
 
 ## logical conjunction (combining with "and") of two vectors with logical values
-(x > 0) & (x <= 2)
+test = (x > 0) & (x <= 2)
+as.integer(test)
 ## logical disjunction (combining with "or") of two vectors with logical values
 (x > 2) | (x <= -1)
 
