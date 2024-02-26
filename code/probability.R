@@ -42,7 +42,7 @@ Tech = rpois(NMC, 1.3)
 # Compile the results
 xtabs(~UT + Tech)
 results_table = xtabs(~UT + Tech)/NMC
-results_table
+round(results_table,2)
 
 # Monte Carlo estimates of probabilities
 sum(UT > Tech)/NMC
@@ -50,7 +50,7 @@ sum(UT == Tech)/NMC
 sum(UT < Tech)/NMC
 
 # Compare with a calculation from the PMF assuming independence
-dpois(1, 1.6) * dpois(1, 1.3) # UT 1 - 1 Texas Tech
+dpois(1, 1.6) * dpois(1, 1.3) # UT 1x - 1 Texas Tech
 dpois(2, 1.6) * dpois(0, 1.3) # UT 2 - 0 Texas Tech
 
 # A cool figure for those who want to geek out with R graphics
@@ -62,8 +62,8 @@ image(0:5, 0:5, results_table[1:5,1:5],
       col=my_cols, breaks=my_breaks,
       las=1, bty='n',
       main="Probability of outcomes for the \nUT vs. Texas Tech match",
-      ylab='UT goals',
-      xlab="Texas Tech goals")
+      ylab='Texas Tech goals',
+      xlab="UT goals")
 
 abline(h=-0.5 + 0:6, lty='dotted')
 abline(v=-0.5 + 0:6, lty='dotted')
@@ -91,7 +91,7 @@ plot(ii,pnorm(ii,mean=0,sd=1),type='l',xlab='',main='CDF of Normal')
 
 # example of adding a line on top of a histogram
 dev.off()
-X = runif(1000)
+X = runif(100)
 hist(X)
 hist_data <- hist(X)
 counts = hist_data$counts
