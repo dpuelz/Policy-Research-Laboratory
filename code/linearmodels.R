@@ -45,6 +45,7 @@ KHOU_squared = load_combined$KHOU^2
 load_combined$KHOU_squared = KHOU_squared
 lm2 = lm(COAST ~ KHOU + KHOU_squared, data=load_combined)
 summary(lm2)
+test = predict(lm2)
 
 plot(load_combined$KHOU,load_combined$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8)
 
@@ -55,5 +56,7 @@ xnew = seq(xmin,xmax,length.out=500)
 
 quadfit = lm2$coefficients[1] + lm2$coefficients[2]*xnew + lm2$coefficients[3]*xnew^2
 lines(xnew,quadfit,col=2,lwd=3)
+abline(lm1,col='blue',lwd=2)
+points(load_combined$KHOU,test,pch=16,col='green',cex=1.5)
 
 
