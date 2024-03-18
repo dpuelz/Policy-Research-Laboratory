@@ -18,6 +18,7 @@ boot1 = do(5000)*{
 
 hist(boot1$result)
 sd(boot1$result)
+confint(boot1$result)
 
 # formula for standard error? se = sqrt(s^2/n)
 s = sd(creatinine$creatclear)
@@ -38,7 +39,7 @@ abline(lm1, lwd=2, col='blue')
 coef(lm1)
 
 # Bootstrap
-boot1 = do(1000)*lm(creatclear~age, data=resample(creatinine))
+boot1 = do(10000)*lm(creatclear~age, data=resample(creatinine))
 head(boot1)
 
 hist(boot1$Intercept)
@@ -74,13 +75,13 @@ for(ii in 1:numboot){
 }
 
 # smaller sample
-load_combined_small = sample(load_combined,15)
+load_combined_small = sample(load_combined,1000)
 KHOU_squared = load_combined_small$KHOU^2
 load_combined_small$KHOU_squared = KHOU_squared
-numboot = 200
+numboot = 5000
 lm2 = do(numboot)*(lm(COAST ~ KHOU + KHOU_squared, data=resample(load_combined_small)))
 
-plot(load_combined_small$KHOU,load_combined_small$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.8,xlab="temperature (F)",ylab="power demand")
+plot(load_combined_small$KHOU,load_combined_small$COAST,col=rgb(0,0,0,alpha=0.1),pch=19,cex=0.95,xlab="temperature (F)",ylab="power demand")
 x = load_combined_small$KHOU
 xmin = floor(min(x))
 xmax = floor(max(x))
