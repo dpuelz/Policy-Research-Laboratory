@@ -34,9 +34,9 @@ There will be individual, weekly exercises to be turned in each Wednesday via ca
 
 ## Project
 
-<!--
-Details about the final project can be found [here](slides/PRL-project.pdf).
+Details about the final project can be found [here](slides/PRL-project_midterm.pdf).
 
+<!--
 Presentation schedule is the following:
 
 Tuesday (11/28)
