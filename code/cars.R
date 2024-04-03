@@ -19,9 +19,9 @@ sigma = attr(X,"scaled:scale")
 clust1 = kmeans(X, 6, nstart=500)
 
 # What are the clusters?
-clust1$center  # not super helpful
+round(clust1$center,3)  # not super helpful
 clust1$center[1,]*sigma + mu
-clust1$center[2,]*sigma + mu
+clust1$center[4,]*sigma + mu
 clust1$center[5,]*sigma + mu
 
 
