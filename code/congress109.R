@@ -31,3 +31,5 @@ o2 = order(loadings[,2], decreasing=TRUE)
 colnames(Z)[head(o2,25)]
 colnames(Z)[tail(o2,25)]
 
+summary(pc2)
+
