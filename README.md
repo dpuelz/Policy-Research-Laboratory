@@ -35,20 +35,19 @@ There will be individual, weekly exercises to be turned in each Wednesday via ca
 
 Details about the final project can be found [here](slides/PRL-project_midterm.pdf).
 
-<!--
 Presentation schedule is the following:
 
-Tuesday (11/28)
-1. Molly
-2. Justin
-3. Manas
-4. Kirti
+Monday (4/22)
+1. Manay + Heinrick: Factors affecting tourism
+2. Praneeth + Hanif: Private equity-owned hospital performance
+3. Mingyang + Yu: Social and economic factors driving American marriages
+4. Derek: Effect of telemedicine on patient outcomes
 
-Thursday (11/30)
-1. Maryam
-2. Sergio
-3. Adish
--->
+Monday (4/29)
+1. Natalia: Impact of lobbying in Texas
+2. Lucas + Kevin: Kalshi, prediction markets
+3. Sarah: Public pension plans
+
 
 A couple places to look for data:
 - [Harvard Dataverse](https://dataverse.harvard.edu).  Compilation of data (and code) from research projects ranging from medicine and law to business and public policy.  Often accompanied by a peer-reviewed paper.
