@@ -26,9 +26,7 @@ There will be individual, weekly exercises to be turned in each Wednesday via ca
 - [Week 11 exercises](assignments/HW8.pdf). Due 4/3. Data: [electric-company.csv](data/electric-company.csv).
 - [Week 12 exercises](assignments/HW9.pdf). Due 4/10. Data: [social_marketing.csv](data/social_marketing.csv).
 - [Week 13 exercises](assignments/HW10.pdf). Due 4/17.  This homework asks for initial project summaries.
-<!--
-- [Week 12 exercises](assignments/HW11.pdf). Due 11/15. Data: [newspapers.RData](data/newspapers.RData). 
--->
+- [Week 14 exercises](assignments/HW11.pdf). Due 4/24. Data: [newspapers.RData](data/newspapers.RData). 
 
 
 ## Project
