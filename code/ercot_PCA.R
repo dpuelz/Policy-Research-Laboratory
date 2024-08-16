@@ -5,6 +5,8 @@ library(lubridate)
 library(randomForest)
 library(splines)
 library(pdp)
+library(sf)
+
 
 # Note: before loading the data,
 # you'll first need to unzip the ercot folder
@@ -57,13 +59,24 @@ station_data = subset(station_data, state != 'MX')
 # to the same coordinate system used by usmap
 station_map = station_data %>%
   select(lon, lat) %>%
-  usmap_transform 
+  usmap_transform
+
+station_map <- station_data %>%
+  select(lon, lat) %>%
+  usmap_transform() %>%
+  mutate(lon = station_data$lon, lat = station_data$lat)
+
+station_map <- station_map %>%
+  mutate(x = st_coordinates(.)[,1],
+         y = st_coordinates(.)[,2]) %>%
+  select(-geometry)
 
 head(station_map)
 
 # now merge these coordinates station name
 station_data = station_data %>% rownames_to_column('station')
 station_data = merge(station_data, station_map, by=c('lat', 'lon'))
+
 head(station_data)
 
 # plot the coordinates of the weather stations
