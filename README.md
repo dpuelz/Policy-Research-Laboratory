@@ -1,16 +1,16 @@
-# FIN 373: Policy Research Laboratory
+# CIV 373: Policy Research Laboratory
 
-Welcome to the Spring 2024 edition of Policy Research Laboratory, a course on causal inference and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.
+Welcome to the Fall 2024 edition of Policy Research Laboratory, a course on causal inference and data-driven policy research.  All course materials can be found on this GitHub page.  Please see the [course syllabus](syllabus.pdf) for links and descriptions of the readings mentioned below.
 
 Instructor:  
 - Prof. David Puelz.  Individual meetings can be booked at the following [link](https://calendly.com/dpuelz).
 
 Teaching Assistants:
-- Adish Sundar, TA session on Wednesdays from 10:00a-11:30a in the Finance Dept conference room, CBA 6.224.
+- Loren Nix, TA session TBD.
 
 ## Class meetings
 
-- Mondays, from 8:00a-11:00a in JES A218A.
+- Monday and Wednesday, from 9:30a-11:00a in CBA 6.420.
 
 ## Exercises
 
@@ -31,7 +31,7 @@ There will be individual, weekly exercises to be turned in each Wednesday via ca
 
 ## Project
 
-Details about the final project can be found [here](slides/PRL-project_midterm.pdf).
+<!-- Details about the final project can be found [here](slides/PRL-project_midterm.pdf).
 
 Presentation schedule is the following:
 
@@ -45,7 +45,7 @@ Monday (4/29)
 1. Natalia: Impact of lobbying in Texas
 2. Lucas + Kevin: Kalshi, prediction markets
 3. Sarah: Public pension plans
-
+ -->
 
 A couple places to look for data:
 - [Harvard Dataverse](https://dataverse.harvard.edu).  Compilation of data (and code) from research projects ranging from medicine and law to business and public policy.  Often accompanied by a peer-reviewed paper.
