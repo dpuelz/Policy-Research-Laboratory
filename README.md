@@ -16,7 +16,7 @@ Teaching Assistants:
 
 There will be individual, weekly exercises to be turned in each Wednesday via canvas.  They will be posted here each Monday of the prior week.  
 
-- [Week 2 exercises](assignments/HW1.pdf). Due 1/31. Data: [cars.csv](data/cars.csv).
+<!-- - [Week 2 exercises](assignments/HW1.pdf). Due 1/31. Data: [cars.csv](data/cars.csv).
 - [Week 3 exercises](assignments/HW2.pdf). Due 2/7. Data: [turnout.csv](data/turnout.csv) and [STAR.csv](data/STAR.csv).
 - [Week 4 exercises](assignments/HW3.pdf). Due 2/14. Data: [gay.csv](data/gay.csv) and [leaders.csv](data/leaders.csv).
 - [Week 5 exercises](assignments/HW4.pdf). Due 2/21. Data: [rosca.csv](data/rosca.csv) and [predimed.csv](data/predimed.csv).
@@ -27,7 +27,7 @@ There will be individual, weekly exercises to be turned in each Wednesday via ca
 - [Week 12 exercises](assignments/HW9.pdf). Due 4/10. Data: [social_marketing.csv](data/social_marketing.csv).
 - [Week 13 exercises](assignments/HW10.pdf). Due 4/17.  This homework asks for initial project summaries.
 - [Week 14 exercises](assignments/HW11.pdf). Due 4/24. Data: [newspapers.RData](data/newspapers.RData). 
-
+ -->
 
 ## Project
 
