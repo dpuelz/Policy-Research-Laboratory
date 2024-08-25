@@ -6,7 +6,7 @@ Instructor:
 - Prof. David Puelz.  Individual meetings can be booked at the following [link](https://calendly.com/dpuelz).
 
 Teaching Assistants:
-- Loren Nix, TA session TBD.
+- Loren Nix, TA session Wednesday 4-5p (zoom) and Thursday 10-11a (Lucky Lab coffee, Geosciences building: JGB).
 
 ## Class meetings
 
