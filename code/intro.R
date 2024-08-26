@@ -104,6 +104,6 @@ my.summary(z)
 my.summary(world.pop)
 my.summary(rnorm(10000))
 
-
+hist(rnorm(10000))
 
 
