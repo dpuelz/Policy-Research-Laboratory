@@ -17,8 +17,8 @@ Teaching Assistants:
 There will be individual, weekly exercises to be turned in each Wednesday via canvas.  They will be posted here each Monday of the prior week.  
 
 - [Week 2 exercises](assignments/HW1.pdf). Due 9/4. Data: [cars.csv](data/cars.csv).
-<!-- 
 - [Week 3 exercises](assignments/HW2.pdf). Due 2/7. Data: [turnout.csv](data/turnout.csv) and [STAR.csv](data/STAR.csv).
+<!-- 
 - [Week 4 exercises](assignments/HW3.pdf). Due 2/14. Data: [gay.csv](data/gay.csv) and [leaders.csv](data/leaders.csv).
 - [Week 5 exercises](assignments/HW4.pdf). Due 2/21. Data: [rosca.csv](data/rosca.csv) and [predimed.csv](data/predimed.csv).
 - [Week 6 exercises](assignments/HW5.pdf). Due 2/28. Data: [fraud.RData](data/fraud.RData). 
