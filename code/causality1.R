@@ -68,7 +68,7 @@ x != 1
 test = (x > 0) & (x <= 2)
 as.integer(test)
 ## logical disjunction (combining with "or") of two vectors with logical values
-(x > 2) | (x <= -1)
+(x > 0) | (x <= 2)
 
 x.int <- (x > 0) & (x <= 2) # logical vector
 x.int
