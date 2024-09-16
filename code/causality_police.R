@@ -62,6 +62,7 @@ plottreatment(Z[,2],network,hotspot_indices)
 plottreatment(Z[,3],network,hotspot_indices)
 plottreatment(Z[,4],network,hotspot_indices)
 plottreatment(Z[,5],network,hotspot_indices)
+plottreatment(Z[,10000],network,hotspot_indices)
 
 
 # Now, let's look into testing some causal effects
