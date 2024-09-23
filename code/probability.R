@@ -50,7 +50,7 @@ sum(UT == Tech)/NMC
 sum(UT < Tech)/NMC
 
 # Compare with a calculation from the PMF assuming independence
-dpois(1, 1.6) * dpois(1, 1.3) # UT 1x - 1 Texas Tech
+dpois(1, 1.6) * dpois(1, 1.3) # UT 1 - 1 Texas Tech
 dpois(2, 1.6) * dpois(0, 1.3) # UT 2 - 0 Texas Tech
 
 # A cool figure for those who want to geek out with R graphics
@@ -78,7 +78,7 @@ for(i in 1:6) {
 
 # Example 3: Functions for continuous variables
 # normal random variables
-hist(rnorm(1000,mean=0,sd=1),col='gray',freq = FALSE)
+hist(rnorm(100000,mean=0,sd=1),col='gray',freq = FALSE,breaks=100)
 K = 3
 pnorm(3,mean=0,sd=1) # cumulative density function, calculate P(x<=K) for one value of K
 
