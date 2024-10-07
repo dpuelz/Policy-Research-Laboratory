@@ -22,7 +22,7 @@ There will be individual, weekly exercises to be turned in each Wednesday via ca
 - [Week 5 exercises](assignments/HW4.pdf). Due 9/25. Data: [rosca.csv](data/rosca.csv) and [predimed.csv](data/predimed.csv).
 - [Week 6 exercises](assignments/HW5.pdf). Due 10/2. Data: [fraud.RData](data/fraud.RData). 
 - [Week 7 exercises](assignments/HW6.pdf). Due 10/9. Data: [justices.csv](data/justices.csv) and [yu2017sample.csv](data/yu2017sample.csv).
-- [Week 9 exercises](assignments/HW7.pdf). Due 3/20. Data: [finlit15and18.csv](data/finlit15and18.csv) and [transfer.csv](data/transfer.csv).
+- [Week 8 exercises](assignments/HW7.pdf). Due 10/16. Data: [finlit15and18.csv](data/finlit15and18.csv) and [transfer.csv](data/transfer.csv).
 <!-- 
 - [Week 11 exercises](assignments/HW8.pdf). Due 4/3. Data: [electric-company.csv](data/electric-company.csv).
 - [Week 12 exercises](assignments/HW9.pdf). Due 4/10. Data: [social_marketing.csv](data/social_marketing.csv).
