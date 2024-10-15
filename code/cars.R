@@ -22,7 +22,7 @@ clust1 = kmeans(X, 6, nstart=500)
 round(clust1$center,3)  # not super helpful
 clust1$center[1,]*sigma + mu
 clust1$center[4,]*sigma + mu
-clust1$center[5,]*sigma + mu
+clust1$center[6,]*sigma + mu
 
 
 # Which cars are in which clusters?
@@ -30,7 +30,7 @@ which(clust1$cluster == 1)
 which(clust1$cluster == 2)
 which(clust1$cluster == 3)
 which(clust1$cluster == 4)
-which(clust1$cluster == 5)
+which(clust1$cluster == 6)
 
 # A few plots with cluster membership shown
 # qplot is in the ggplot2 library
