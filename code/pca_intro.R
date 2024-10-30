@@ -74,3 +74,10 @@ summary(pc_Z)
 # where v is PC1 and x is the original 2D data point
 pc_Z$x
 
+alpha_i = pc_Z$x[,1]
+var(alpha_i)
+hist(alpha_i)
+
+
+
+
