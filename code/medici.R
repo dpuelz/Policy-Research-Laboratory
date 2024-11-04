@@ -17,7 +17,7 @@ V(marriage)$frame.color = 0
 V(marriage)$label.color = "black"
 
 ## plot it
-plot(marriage, edge.curved=TRUE)
+plot(marriage)
 
 ## print the degree for each family
 sort(degree(marriage))
